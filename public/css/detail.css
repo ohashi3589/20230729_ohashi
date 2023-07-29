@@ -1,0 +1,261 @@
+.left-section {
+  
+  width: 50%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: 4%;
+  margin-top: 8%;
+}
+
+.left-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.store_tag p {
+  display: inline-block;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.left-section p {
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.store_tag {
+  margin-bottom: 10px;
+}
+
+.store_text_gp {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.flatpickr-calendar-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.flatpickr-calendar-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: #000;
+}
+.card {
+  background-color: rgb(0, 26, 255);
+  float: right;
+  width: 500px;
+  height: 650px;
+  box-sizing: border-box;
+  margin-right: 6%;
+  margin-top: 2%;
+  position: relative
+}
+
+.right-section {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#time,
+#guests {
+  border-radius: 8px;
+  padding: 8px;
+  height: 40px;
+  width: 420px;
+  margin-bottom: 15px;
+}
+
+#date {
+  border-radius: 8px;
+  padding: 8px;
+  height: 40px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.store_confir {
+  background-color: rgb(0, 26, 255);
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 21px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reservation-heading {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight:bold;
+}
+
+.store_confir p {
+  padding: 8px;
+  color: white;
+}
+
+.store_confir p span {
+  display: inline-block;
+}
+
+.store_confir p span.store-name {
+  margin-left: 60px;
+}
+
+.store_confir p span.selected-date {
+  margin-left: 50px;
+}
+
+#selected-date,
+#selected-time {
+  margin-left: 60px;
+}
+
+#selected-guests {
+  margin-left: 40px;
+}
+
+
+.card button[type="submit"] {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #224b8f;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.store_confir button[type="submit"]:hover {
+  background-color: #1c416f;
+}
+
+.store_confir button[type="submit"]:focus {
+  outline: none;
+}
+
+.message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  -index: 9999;
+}
+    
+.message-text {
+  font-size: 18px;
+}
+
+.site-name {
+  margin-left: 50px;
+  font-size: 30px;
+}
+          
+.menu-button {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(0, 26, 255);
+}
+
+.reviews {
+  margin-top: 20px;
+}
+
+.reviews h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.reviews ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reviews li {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.reviews p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.reviews p:first-child {
+  font-weight: bold;
+}
+
+.rating .star {
+  font-size: 24px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.rating .star.active {
+  color: #ffc107;
+}
+
+@media screen and (max-width: 768px) {
+
+  .left-section,
+  .card {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+
+  .left-section img {
+    max-width: 100%;
+  }
+
+  .store_text_gp {
+    margin-top: 10px;
+  }
+
+  .store_confir {
+    height: 220px;
+  }
+
+  #time,
+  #guests,
+  #date {
+    width: 100%;
+  }
+
+  .card button[type="submit"] {
+    width: 100%;
+  }
+
+  .reviews h2 {
+    font-size: 20px;
+  }
+
+  .rating .star {
+    font-size: 20px;
+  }
+}
+
+
+
+
